@@ -1,0 +1,173 @@
+================================================================================
+SHIELDTRACE THIRD-PARTY SOFTWARE NOTICES AND LICENSES
+================================================================================
+
+ShieldTrace v0.1.0 Beta incorporates and relies upon third-party open-source
+software components listed below.
+
+IMPORTANT NOTICE:
+1. ShieldTrace's proprietary license (LICENSE.txt) DOES NOT apply to any of the
+   third-party software components listed in this document.
+2. All third-party software components remain subject to their respective original
+   open-source licenses (e.g., LGPL, BSD, MIT, Apache, PSF).
+3. Nothing in the ShieldTrace license or documentation diminishes, restricts,
+   or modifies any rights, permissions, or freedoms granted to users under the
+   applicable third-party open-source licenses, including rights under the GNU
+   Lesser General Public License (LGPL).
+
+================================================================================
+CORE RUNTIME COMPONENTS
+================================================================================
+
+--------------------------------------------------------------------------------
+1. Python
+--------------------------------------------------------------------------------
+- Component: Python
+- Installed Version: 3.13.14
+- Copyright: © Python Software Foundation
+- License: PSF License Agreement
+- Project Homepage: https://www.python.org
+- License Summary: Open source license allowing free use, modification, and distribution.
+- Package Metadata Location: Standard library runtime / sys.version
+
+--------------------------------------------------------------------------------
+2. PySide6 (Qt for Python)
+--------------------------------------------------------------------------------
+- Component: PySide6
+- Installed Version: 6.11.1
+- Copyright: © The Qt Company Ltd. and Qt for Python Team <pyside@qt-project.org>
+- License: GNU Lesser General Public License v3 (LGPL-3.0-only) / Commercial
+- Project Homepage: https://pyside.org
+- License Summary: LGPL v3 permits dynamic linking and binary distribution while preserving user rights to reverse engineer for debugging such modifications.
+- Package Metadata Location: `pyside6-6.11.1.dist-info/licenses/`
+
+--------------------------------------------------------------------------------
+3. shiboken6
+--------------------------------------------------------------------------------
+- Component: shiboken6
+- Installed Version: 6.11.1
+- Copyright: © The Qt Company Ltd. and Qt for Python Team <pyside@qt-project.org>
+- License: GNU Lesser General Public License v3 (LGPL-3.0-only) / Commercial
+- Project Homepage: https://pyside.org
+- License Summary: C++/Python binding generator runtime under LGPL v3.
+- Package Metadata Location: `shiboken6-6.11.1.dist-info/licenses/`
+
+--------------------------------------------------------------------------------
+4. Qt Framework
+--------------------------------------------------------------------------------
+- Component: Qt Framework
+- Installed Version: 6.11.x
+- Copyright: © The Qt Company Ltd.
+- License: GNU Lesser General Public License v3 (LGPL-3.0-only) / Commercial
+- Project Homepage: https://www.qt.io
+- License Summary: Cross-platform GUI framework dynamically linked via PySide6.
+
+--------------------------------------------------------------------------------
+5. NumPy
+--------------------------------------------------------------------------------
+- Component: NumPy
+- Installed Version: 2.5.1
+- Copyright: © 2005-2026 NumPy Developers (Travis E. Oliphant et al.)
+- License: BSD 3-Clause License (BSD-3-Clause)
+- Project Homepage: https://numpy.org
+- License Summary: Permissive 3-clause BSD license.
+- Package Metadata Location: `numpy-2.5.1.dist-info/licenses/LICENSE.txt`
+
+--------------------------------------------------------------------------------
+6. Matplotlib
+--------------------------------------------------------------------------------
+- Component: Matplotlib
+- Installed Version: 3.11.1
+- Copyright: © 2002-2012 John D. Hunter; 2012-2026 Matplotlib Development Team
+- License: PSF based Matplotlib License / BSD compatible
+- Project Homepage: https://matplotlib.org
+- License Summary: Permissive open source visualization library license.
+- Package Metadata Location: `matplotlib-3.11.1.dist-info/LICENSE`
+
+--------------------------------------------------------------------------------
+7. pyparsing
+--------------------------------------------------------------------------------
+- Component: pyparsing
+- Installed Version: 3.3.2
+- Copyright: © 2003-2026 Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
+- License: MIT License
+- Project Homepage: https://pyparsing-docs.readthedocs.io/en/latest/
+- License Summary: Permissive MIT license.
+- Package Metadata Location: `pyparsing-3.3.2.dist-info/licenses/LICENSE`
+
+--------------------------------------------------------------------------------
+8. contourpy
+--------------------------------------------------------------------------------
+- Component: contourpy
+- Installed Version: 1.3.3
+- Copyright: © 2021-2026 Ian Thomas <ianthomas23@gmail.com>
+- License: BSD 3-Clause License
+- Project Homepage: https://github.com/contourpy/contourpy
+- License Summary: Permissive 3-clause BSD license.
+- Package Metadata Location: `contourpy-1.3.3.dist-info/LICENSE`
+
+--------------------------------------------------------------------------------
+9. cycler
+--------------------------------------------------------------------------------
+- Component: cycler
+- Installed Version: 0.12.1
+- Copyright: © 2015-2026 Matplotlib Project (Thomas A Caswell)
+- License: BSD 3-Clause License
+- Project Homepage: https://matplotlib.org/cycler/
+- License Summary: Permissive 3-clause BSD license.
+- Package Metadata Location: `cycler-0.12.1.dist-info/LICENSE`
+
+--------------------------------------------------------------------------------
+10. fonttools
+--------------------------------------------------------------------------------
+- Component: fonttools
+- Installed Version: 4.63.0
+- Copyright: © 1999-2026 Just van Rossum, Behdad Esfahbod, et al.
+- License: MIT License
+- Project Homepage: http://github.com/fonttools/fonttools
+- License Summary: Permissive MIT license.
+- Package Metadata Location: `fonttools-4.63.0.dist-info/licenses/LICENSE`
+
+--------------------------------------------------------------------------------
+11. kiwisolver
+--------------------------------------------------------------------------------
+- Component: kiwisolver
+- Installed Version: 1.5.0
+- Copyright: © 2013-2026 Nucleic Development Team (Chris Colbert et al.)
+- License: Modified BSD License (3-Clause BSD)
+- Project Homepage: https://github.com/nucleic/kiwi
+- License Summary: Permissive 3-clause BSD license.
+- Package Metadata Location: `kiwisolver-1.5.0.dist-info/licenses/LICENSE`
+
+--------------------------------------------------------------------------------
+12. packaging
+--------------------------------------------------------------------------------
+- Component: packaging
+- Installed Version: 26.2
+- Copyright: © Donald Stufft and individual contributors
+- License: Apache License 2.0 / BSD 2-Clause License (Dual Licensed)
+- Project Homepage: https://packaging.pypa.io/
+- License Summary: Permissive Apache-2.0 or BSD-2-Clause dual license.
+- Package Metadata Location: `packaging-26.2.dist-info/licenses/LICENSE`
+
+--------------------------------------------------------------------------------
+13. python-dateutil
+--------------------------------------------------------------------------------
+- Component: python-dateutil
+- Installed Version: 2.9.0.post0
+- Copyright: © 2003-2011 Gustavo Niemeyer; 2012-2026 Simplified BSD / Apache
+- License: BSD 3-Clause / Apache License 2.0
+- Project Homepage: https://github.com/dateutil/dateutil
+- License Summary: Permissive open-source license.
+- Package Metadata Location: `python_dateutil-2.9.0.post0.dist-info/LICENSE`
+
+--------------------------------------------------------------------------------
+14. PyInstaller
+--------------------------------------------------------------------------------
+- Component: PyInstaller (Build Tool & Bootloader Runtime)
+- Installed Version: 6.21.0
+- Copyright: © 2005-2026 PyInstaller Development Team (Hartmut Goebel et al.)
+- License: GPLv2+ with special bootloader exception allowing distribution of standalone non-free applications
+- Project Homepage: https://pyinstaller.org
+- License Summary: PyInstaller bootloader exception permits distributing proprietary executables built with PyInstaller without forcing GPL on the payload.
+- Package Metadata Location: `pyinstaller-6.21.0.dist-info/licenses/COPYING.txt`
