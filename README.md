@@ -11,15 +11,15 @@ closed-source ShieldTrace application. Application source code remains private.
 
 ## Current Status
 
-- **v0.2.0 — Evaluation Release / Public Showcase**
+- **v0.2.0 — Evaluation Release**
 - Under active development.
 - Closed-source Windows desktop application.
-- Public binary currently unavailable for v0.2.0.
+- Windows installer and portable package are available for v0.2.0.
 - Historical v0.1.0 Beta Windows binary remains available through
   [GitHub Releases](https://github.com/Emirzdm/ShieldTrace-Releases/releases/tag/v0.1.0-beta).
 
-Binary distribution for v0.2.0 is temporarily unavailable while third-party
-redistribution requirements are being finalized.
+Windows binaries are available from the [v0.2.0 GitHub Release](https://github.com/Emirzdm/ShieldTrace-Releases/releases/tag/v0.2.0).
+The release includes the installer, portable archive, SHA-256 checksums, and the corresponding-source package for the LGPL-covered Qt components.
 
 See the [v0.2.0 release notes](RELEASE_NOTES_v0.2.0.md) for the current showcase scope.
 
@@ -103,7 +103,7 @@ and capture requirements. No application screenshots are included yet.
 
 | Version | Status |
 |---|---|
-| **v0.2.0 — Evaluation Release / Public Showcase** | Current version; binary temporarily unavailable. [Release notes](RELEASE_NOTES_v0.2.0.md). |
+| **v0.2.0 — Evaluation Release** | Current version; Windows installer and portable package available. [Release notes](RELEASE_NOTES_v0.2.0.md). |
 | **v0.1.0 Beta — Historical Windows binary release** | Still available through [GitHub Releases](https://github.com/Emirzdm/ShieldTrace-Releases/releases/tag/v0.1.0-beta). [Historical release notes](RELEASE_NOTES_v0.1.0.md). |
 
 The historical v0.1.0 Beta binary has the analytical scope documented in its

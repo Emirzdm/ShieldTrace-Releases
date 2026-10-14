@@ -7,7 +7,7 @@
 - **Source code:** Private / closed-source
 
 This release presents the v0.2.0 product and research workflow scope.
-v0.2.0 binary distribution is temporarily unavailable.
+Windows binaries for v0.2.0 are available through the GitHub Release.
 
 ## Highlights
 
@@ -51,11 +51,14 @@ measurement-derived equations and their distinction from the analytical model.
 
 ## Distribution Status
 
-Binary distribution for v0.2.0 is temporarily unavailable while third-party
-redistribution requirements are being finalized.
+The v0.2.0 GitHub Release provides:
 
-No v0.2.0 executable, installer, portable archive or runtime libraries are
-distributed with this showcase. Source code remains private.
+- `ShieldTrace-0.2.0-Setup.exe`
+- `ShieldTrace-0.2.0-Portable.zip`
+- `ShieldTrace-0.2.0-Qt-Corresponding-Source.zip`
+- `SHA256SUMS.txt`
+
+ShieldTrace application source code remains private. The corresponding-source archive contains source material for the LGPL-covered Qt components and does not contain the proprietary ShieldTrace application source.
 
 The historical v0.1.0 Beta Windows binary remains available through
 [GitHub Releases](https://github.com/Emirzdm/ShieldTrace-Releases/releases/tag/v0.1.0-beta).
